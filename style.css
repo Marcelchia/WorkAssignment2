@@ -1,5 +1,7 @@
 
 
+
+
 /*
 All font-family to Arial, Helvetica, sans-serif;
 All Text color to #01161E
@@ -7,9 +9,9 @@ apply box-sizing as border-box
 */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color:#01161E;
+     font-family: Open Sans, sans-serif;
     box-sizing: border-box;
+    color: #515151
 }
 
 /*
@@ -34,7 +36,7 @@ header {
     margin-right:24px;
     padding-top:16px;
     padding-bottom:16px;
-    color:#01161E;
+    color:#8A97A8;
 }
 
 .logo {
@@ -66,6 +68,9 @@ remove underline from the link
 
 
 /* section 1
+bg color = mistyrose
+image - width = 60%
+padding - top & bottom = 30px, left & right = 20px
 */
 .section1 {
     display: flex;
@@ -78,7 +83,10 @@ remove underline from the link
     padding:32px 24px 32px 24px;
 }
 
-
+/* section 1 content
+left padding = 25px
+align the text to center
+*/
 .section1-content {
     padding-left: 25px;
     align-self: center;
@@ -102,8 +110,7 @@ remove underline from the link
     background-color: darkgreen;
 }
 
-/* section 2
-*/
+
 .section2 {
     display: flex;
     background-color: white;
@@ -122,6 +129,11 @@ remove underline from the link
 }
 
 
+
+/* section 1 content
+left padding = 25px
+align the text to center
+*/
 .section2-content {
 		display:flex;
     padding-left: 25px;
@@ -168,8 +180,7 @@ remove underline from the link
 	padding:16px;
 	width:35%;
 }
-/* section 3
-*/
+
 .section3 {
 
 background-color:#d9d9d9;
@@ -206,8 +217,6 @@ padding-bottom:32px;
 padding-left:16px;
 }
 
-/* section 4
-*/
 .section4 {
 	display:flex;
 	margin-bottom:32px;
@@ -229,6 +238,7 @@ padding-left:16px;
 
 
 .s4-rightContent {
+    background-color: white;
     padding: 30px 20px;
 }
 
@@ -237,8 +247,6 @@ video {
 	margin-top:0px;
 }
 
-/* footer
-*/
 
 footer {
 margin-top:32px;
@@ -246,6 +254,7 @@ padding-top:16px;
 padding-left:24px;
 
 }
+
 
 
 
@@ -279,26 +288,23 @@ padding-left:24px;
         height:64px;
     }
 
-
-    /* section 1
-*/
     .section1 {
         flex-direction: column;
     }
+
     .section1 > img {
         width: 100%;
-        padding:0px;
     }
-    /* section 2
-*/
 
     	.s2-leftContent{
 				display:none;
 		}
+
 		.s2-rightContent{
 				width:100%;
 				flex-direction:column;
 		}
+
 		.s2-box{
 			flex-direction:column;
 		}
@@ -324,8 +330,7 @@ padding-left:24px;
 		}
 
 
-    /* section 3
-*/
+
 		.course-container{
 			flex-direction:column;
 			width:100%;
@@ -344,9 +349,6 @@ padding-left:24px;
 				flex-direction: column;
 		}
 
-    /* section 4
-*/
-
 		.section4{
 			width:100%;
 		}
@@ -356,7 +358,6 @@ padding-left:24px;
 				width:100%;
 				padding:0px;
 				margin:0px;
-				align-items: center;
 		}
 
 		.s4-rightContent {
